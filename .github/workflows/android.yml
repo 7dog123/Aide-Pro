@@ -17,9 +17,6 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install gradle
-    - name: Regenerate wrapper 
-      run: |
-        gradle wrapper
     - name: Grant execute permission for gradlew
       run: |
         chmod +x gradlew
